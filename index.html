@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fernando Cantos Demo</title>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <div id="container" >
+            <h1>Demo: jQuery Validation Plugin <small><span>Front-End Development</span></small></h1>
+            <form action="" method="post" id="contact_form">
+
+                <div class="row">
+                    <label for="user" class="col-sm-3 col-md-3">Username</label>
+                    <input id="user" name="user" type="text" class="col-xs-6 col-sm-6  col-md-6" placeholder="Write here your username">
+                    <span id="userInfo" class="col-xs-6 col-sm-3 col-md-5"></span>
+                </div>
+
+                <div class="row">
+                    <label for="password" class="col-sm-3 col-md-3">Password</label>
+                    <input id="password" name="password" type="text" class="col-xs-6 col-sm-6  col-md-6" placeholder="Write here your password">
+                    <span id="passwordInfo" class="col-xs-6 col-sm-3 col-md-5"></span>
+                </div>
+
+                <div class="row">
+                    <label for="confirmpassword" class="col-sm-3 col-md-3">Confirm Pass</label>
+                    <input id="confirmpassword" name="confirmpassword" type="text" class="col-xs-6 col-sm-6  col-md-6" placeholder="Repite here your password">
+                    <span id="confirmpasswordInfo" class="col-xs-6 col-sm-3 col-md-5"></span>
+                </div>
+
+                <div class="row">
+                    <label for="name" class="col-xs-12 col-sm-3 col-md-3">Name</label>
+                    <input id="name" name="name" type="text" placeholder="What's your name?" class="col-xs-6 col-sm-6  col-md-6">
+                    <span id="nameInfo" class="col-xs-6 col-sm-5 col-md-5"></span>
+                </div>
+
+                <div class="row">
+                    <label for="lastname" class="col-sm-3 col-md-3">Last name</label>
+                    <input id="lastname" name="lastname" type="text" placeholder="What's your lastname?" class="col-xs-6 col-sm-6  col-md-6">
+                    <span id="lastnameInfo" class="col-xs-6 col-sm-3 col-md-5"></span>
+                </div>
+
+                <div class="row">
+                    <label for="email" class="col-sm-3 col-md-3">E-mail</label>
+                    <input id="email" name="email" type="text" class="col-xs-6 col-sm-6  col-md-6" placeholder="Write here your your email">
+                    <span id="emailInfo" class="col-xs-6 col-sm-3 col-md-5"></span>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div id="button"><input id="send" name="send" type="submit" class="btn btn-success btn-lg" value="Send"></div>
+                </div>
+
+            </form>
+        </div>
+                
+        <script type="text/javascript" src="js/jquery.validation.js"></script>
+    </body>
+</html>
